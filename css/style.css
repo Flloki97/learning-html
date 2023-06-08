@@ -16,6 +16,13 @@
     animation: soundAnimation 1s linear infinite;
   }
 
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
   @keyframes soundAnimation {
     0% {
       transform: scaleY(0);
