@@ -9,14 +9,16 @@
 </head>
 <body>
     <div class="container">
-        <div class="start-stop-rec-container">
-            <button onclick="startRecording()">Start Recording</button>
-            <button onclick="stopRecording()">Stop Recording</button>
+        <div class="wrapper">
+            <div class="start-stop-rec-container">
+                <button onclick="startRecording()">Start Recording</button>
+                <button onclick="stopRecording()">Stop Recording</button>
+            </div>
+    
+            <button onclick="playRecording()">Play Recording</button>
+            <div id="animation"></div>
+            <div id="recordingsList"></div>
         </div>
-
-        <button onclick="playRecording()">Play Recording</button>
-        <div id="animation"></div>
-        <div id="recordingsList"></div>
     </div>
 
 
